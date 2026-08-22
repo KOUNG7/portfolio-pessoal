@@ -1,0 +1,55 @@
+#menu{ 
+    background:linear-gradient(to right,rgb(85, 127, 161),rgb(4, 218, 233) );
+    width:100%;
+    padding:10px;
+    font-family: fantasy;
+}
+
+#menu a:link { 
+    color:white;
+    text-decoration:none; 
+}
+
+body h2 { 
+    color:rgb(85, 127, 161);
+    font-family:fantasy;
+    display:inline-block; 
+    
+}
+
+#sobre img { 
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+#sobre h3 {
+    font-size:80%;
+}
+
+#habilidade li{ 
+    font-family:fantasy;
+    color:rgb(43, 40, 40);
+}
+#habilidade a:link { 
+
+    text-decoration:none;
+    font-family: sans-serif;
+    color: rgb(22, 22, 22);
+}
+
+#quebrar {
+    display:block;
+}
+
+#contato a {
+    text-decoration:none;
+    color:rgb(37, 37, 125)
+}
+
+
+
+
+
+
