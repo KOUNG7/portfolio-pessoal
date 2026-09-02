@@ -26,6 +26,13 @@ body h2 {
     margin: 20px auto; 
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(4, 218, 233, 0.15); 
+    transition: all 0.5s ease;
+}
+
+#menu:hover{ 
+    background-color:white;
+    padding:20px;
+    box-shadow:whitesmoke 0 5px 20px;
 }
 
 #menu a:link { 
@@ -35,16 +42,19 @@ body h2 {
     margin-left: 10px;
     padding: 3px;
     border-radius: 5px;
+    transition: all 0.5s ease;
 }
 
 #menu a:hover { 
     background-color: rgb(196, 197, 199);
     color: rgb(25, 41, 56); 
-    padding: 3px;
+    padding: 5px;
+    font-size:20px;
+    transition: all 0.5s ease;
 }
 
 .topicos { 
-    background: rgba(255, 255, 255, 0.9); 
+    background-color: rgba(255, 255, 255, 0.9); 
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     width: 80%;
@@ -52,7 +62,15 @@ body h2 {
     margin: 20px auto; 
     padding-bottom: 20px; 
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(4, 218, 233, 0.15);
+    transition: all 0.5s ease;
+    
+}
+
+.topicos:hover{ 
+
+    background-color:white;
+    padding:15px;
+    box-shadow:whitesmoke 0 5px 20px;
 }
 
 #sobre img { 
@@ -60,6 +78,8 @@ body h2 {
     margin-left: 10px;
     margin-right: auto;
     border-radius: 8px;
+    max-width: 100%; 
+    height: auto;
 }
 
 #sobre h3 {
@@ -92,58 +112,57 @@ body h2 {
 }
 
 
+
+
 #habilidade img {
     margin-left: 30px;
 }
 
-#habilidade a:link { 
+#habilidade a { 
     text-decoration: none;
     display: inline-block;
     margin-left: 23px;
     font-family: poppins, sans-serif;
     color: rgb(5, 50, 196);
     padding: 0 10px;
+    transition: all 0.7s ease; 
 }
 
 #habilidade a:hover {
     background-color: rgb(196, 197, 199);
-    border-radius: 3px;
-    padding: 0 10px;
+    border-radius: 7px;
     color: rgb(25, 41, 56);
+    transition: all 0.7s ease; 
 }
-
 
 #contato {
     display: block;
     padding-bottom: 10px;
 }
-
-#contato h3 {
-    margin-left: 20px;
-    margin-top:auto;
-    display: inline-block;
-    border: 2px solid rgb(5, 50, 196);
-    border-radius: 7px;
-    padding: 10px;
-    color: rgb(24, 44, 110);
-
-}
-
 #instagram { 
     margin-left:20px;
 }
-
 #email  {
     text-decoration: none;
+    font-family:arial;
+    font-size:18px;
     color: rgb(24, 44, 110);
     padding: 4px;
-    font-size: 16px;
+    border-radius: 7px;
+    margin-left: 20px;
+    display: inline-block;
+    transition: all 0.5s ease;
 }
 
 #email:hover {
     background-color: rgb(196, 197, 199);
     color: rgb(25, 41, 56);
-    padding: 4px;
     border-radius: 5px;
+    
+    transition: all 0.7s ease;
 }
-
+@media (max-width: 600px) {
+    #menu, .topicos {
+        width: 95%; 
+    }
+}
